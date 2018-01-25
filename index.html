@@ -1,32 +1,84 @@
-﻿<!DOCTYPE html>
-<html>
+﻿<!doctype html>
+<html lang="en">
 <head>
-    <title>Game</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+    <title>Space Sprint</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <div class="wrapper">
-        <header>
-            <h1>Space sprint</h1>
-        </header>
-        <main>
-            <section>
-                <h2>Goal</h2>
-                <p>Your goal is to fly through the belt of asteroids and enemy ships. In a collision, the game is over. You must shoot down as many asteroids and enemy ships as possible to earn the maximum number of points. Enjoy!</p>
-            </section>
-            <section>
-                <h2>Controls</h2>
-                <ul>
-                    <li>W or UpArrow - fly up</li>
-                    <li>S or DownArrow - fly down</li>
-                    <li>SPACEBAR - shut</li>
-                </ul>
-            </section>
-            <section>
-                <a href="game/index.html" class="play-button">PLAY</a>
-            </section>
-        </main>
-        <footer></footer>
-    </div>
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="head_wrap">
+                        <h1 class="text-center">Space Sprint</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="goal">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="goal_wrap">
+                        <h2>GOAL</h2>
+                        <p>FLY. MANEUVER. KILL.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="control">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="control_wrap">
+                        <h2>Controls</h2>
+                        <ul class="control_list">
+                            <li><b>W</b> or <b>UpArrow</b> - fly up</li>
+                            <li><b>S</b> or <b>DownArrow</b> - fly down</li>
+                            <li><b>Space</b> - shut</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="screenshots">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="screen_wrap">
+                        <h2>Screenshots</h2>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <img class="img-responsive" src="img/Screenshot_1.png" alt="screenshot1">
+                            </div>
+                            <div class="col-md-6">
+                                <img class="img-responsive" src="img/Screenshot_2.png" alt="screenshot2">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="play">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="play_wrap">
+                        <a class="btn" href="game/index.html">PLAY!</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 </body>
 </html>
